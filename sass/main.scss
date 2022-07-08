@@ -1,0 +1,26 @@
+// variables
+@import 'utils/variables';
+
+// base styles for tags and reset
+@import 'base';
+
+// common components styles for each page 
+@import 'components/common/address';
+@import 'components/common/footer';
+@import 'components/common/join';
+@import 'components/common/logo';
+@import 'components/common/page-header';
+@import 'components/common/site-nav';
+@import 'components/common/subscription';
+
+// styles only for home page
+@import 'components/home/actvities';
+@import 'components/home/clients';
+@import 'components/home/features';
+@import 'components/home/hero';
+@import 'components/home/modal';
+@import 'components/home/team';
+
+// styles only for portfolio page
+@import 'components/portfolio/filtrs-button';
+@import 'components/portfolio/projects';
