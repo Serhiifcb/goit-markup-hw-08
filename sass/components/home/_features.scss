@@ -1,5 +1,5 @@
 .features {
-    display: flex;
+    // display: flex;
     padding: 0;
     margin: 0;
 }
@@ -25,6 +25,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .features__text {
@@ -36,5 +37,6 @@
 }
 
 .features__item:not(:first-child) {
-    margin-left: 30px;
+    margin-top: 30px;
+    // margin-left: 30px;
 }

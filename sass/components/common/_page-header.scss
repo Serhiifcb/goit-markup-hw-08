@@ -3,8 +3,10 @@
 }
 
 .page-header__container {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .contact-header__link {
@@ -25,7 +27,7 @@
 
 .contact-header {
     margin: 0 0 0 auto;
-    display: flex;
+    // display: flex;
     padding: 0;
 }
 
@@ -35,6 +37,6 @@
     fill: currentColor;
 }
 
-.contact-header__item:not(:first-child) {
-    margin-left: 50px;
-}
+// .contact-header__item:not(:first-child) {
+//     margin-left: 50px;
+// }
