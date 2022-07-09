@@ -1,6 +1,10 @@
 .activities-section {
     display: none;
     padding: 0 0 94px 0;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
 }
 
 .activities {
