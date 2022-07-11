@@ -47,6 +47,10 @@ img {
         padding: 94px 0;
     }
 }
+
+.no-scroll {
+    overflow: hidden;
+}
 // Селектор приховування контенту
 .visually-hidden {
     position: absolute;

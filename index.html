@@ -17,10 +17,9 @@
     <header class="page-header">
         <div class="container page-header__container">
             <a href="./index.html" class="logo">Web<span class="logo--header">Studio</span></a>
-            <button type="button" class="mobile-menu is-open">
+            <button type="button" class="menu-button">
                 <svg width="40" height="40">
-                    <use class="mobile-menu__icon-menu" href="./images/icons.svg#icon-mobile-menu"></use>
-                    <use class="mobile-menu__icon-close" href="./images/icons.svg#icon-mobile-menu-close"></use>
+                    <use class="menu-button__icon-menu" href="./images/icons.svg#icon-mobile-menu"></use>
                 </svg>
             </button>
             <nav>
@@ -48,6 +47,50 @@
                     </a>
                 </li>
             </ul>
+            <div class="mobile-menu is-hidden">
+                <div class="container">
+                    <div>
+                        <button type="button" class="menu-button">
+                            <svg width="40" height="40">
+                                <use class="menu-button__icon-close" href="./images/icons.svg#icon-mobile-menu-close"></use>
+                            </svg>
+                        </button>
+                        <nav>
+                            <ul class="mobile-nav">
+                                <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link mobile__item--active">Студія</a></li>
+                                <li class="mobile-nav__item"><a href="./portfolio.html" class="mobile-nav__link">Портфоліо</a></li>
+                                <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div>
+                        <ul class="mobile-contact-header">
+                            <li class="mobile-contact-header__item">
+                                <a href="tel:+380961111111" class="mobile-menu__phone">
+                                    <!-- <svg class="contact-header__icon" width="10" height="16">
+                                        <use href="./images/icons.svg#icon-smartphone"></use>
+                                    </svg> -->
+                                    +38 096 111 11 11
+                                </a>
+                            </li>
+                            <li class="mobile-contact-header__item">
+                                <a href="mailto:info@devstudio.com" class="mobile-menu__mail">
+                                    <!-- <svg class="mobile-contact-header__icon" width="16" height="12">
+                                        <use href="./images/icons.svg#icon-envelope"></use>
+                                    </svg> -->
+                                    info@devstudio.com
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-menu__social-list">
+                            <a href="#" class="mobile-menu__social-link">Instagram</a>
+                            <a href="#" class="mobile-menu__social-link">Twitter</a>
+                            <a href="#" class="mobile-menu__social-link">Facebook</a>
+                            <a href="#" class="mobile-menu__social-link">Linkedin</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Основна частина     -->
@@ -461,6 +504,6 @@
     <!-- Скрипт для модального вікна -->
     <script src="./js/modal.js"></script>
     <!-- Скрипт для мобільного меню -->
-    <script src="./js/mobille-menu"></script>
+    <script src="./js/mobille-menu.js"></script>
 </body>
 </html>
