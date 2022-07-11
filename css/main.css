@@ -169,6 +169,11 @@ img {
   color: #ffffff;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 1199px) {
+  .join__title {
+    text-align: center;
+  }
+}
 
 .join__list {
   display: -webkit-box;
@@ -597,7 +602,11 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
-  text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .subscription__title {
+    text-align: center;
+  }
 }
 
 .activities-section {

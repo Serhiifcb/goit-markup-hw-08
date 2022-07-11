@@ -22,6 +22,9 @@
     text-transform: uppercase;
     color: $lightColor;
     margin-bottom: 20px;
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
 }
 
 .join__list {

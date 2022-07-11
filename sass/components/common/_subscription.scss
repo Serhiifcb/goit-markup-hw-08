@@ -82,5 +82,7 @@
     text-transform: uppercase;
     color: $lightColor;
     margin-bottom: 20px;
-    text-align: center;
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
 }
