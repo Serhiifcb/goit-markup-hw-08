@@ -4,6 +4,19 @@
 }
 
 .footer__container {
-    // display: flex;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+    @media screen and (max-width: 767px) {
     text-align: center;
+    }
+}
+
+.address-and-join {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-left: 61px;
+    }
 }
