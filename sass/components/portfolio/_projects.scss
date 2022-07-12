@@ -1,15 +1,15 @@
 .project-list {
-    margin-top: 50px;
+    margin-top: 30px;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
     }
     @media screen and (min-width: 768px) {
-        margin-top: 30px;   
+        margin-top: 15px;   
     }
     @media screen and (min-width: 1200px) {
-        margin-top: 40px;
+        margin-top: 35px;
     }
 }
 
