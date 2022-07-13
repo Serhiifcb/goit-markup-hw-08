@@ -81,11 +81,15 @@
     width: 100%;
     height: 100%;
     display: block;
-    padding: 40px 10px;
+    padding: 60px 10px 40px 10px;
     background-color: $lightColor;
     z-index: 2;
-    &.is-hidden {
+    opacity: 1;
+    transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .is-hidden {
         display: none;
+        opacity: 0;
     }
     .container {
         display: flex;
@@ -110,6 +114,9 @@
         &:focus {
             color: $accentColor;
         }
+    @media screen and (max-width: 400px) {
+        font-size: 30px;
+    }
 }
 
 .mobile-nav__item {
@@ -127,6 +134,7 @@
     &:not(:first-child) {
         margin-top: 32px;
     }
+    text-align: center;
 }
 
 .mobile-menu__phone {
@@ -136,6 +144,10 @@
         letter-spacing: 0.02em;
         color: $accentColor;
         text-decoration: none;
+        text-align: center;
+    @media screen and (max-width: 400px) {
+        font-size: 22px;
+    }
 }
 
 .mobile-menu__mail {
@@ -145,11 +157,16 @@
         letter-spacing: 0.02em;
         color: $navContactColor;
         text-decoration: none;
+        text-align: center;
+    @media screen and (max-width: 400px) {
+        font-size: 16px;
+    }
 }
 
 .mobile-menu__social-list {
     display: flex;
     margin-top: 64px;
+    justify-content: center;
 }
 
 .mobile-menu__social-link {
@@ -159,6 +176,9 @@
         letter-spacing: 0.02em;
         color: $accentColor;
         text-decoration: none;
+        @media screen and (max-width: 400px) {
+                font-size: 14px;
+            }
     
     &:not(:first-child) {
         margin-left: 10px;
